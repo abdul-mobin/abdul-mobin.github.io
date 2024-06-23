@@ -3,4 +3,4 @@ layout: default
 title: "CV"
 ---
 
-<object data="{{ site.url }}{{ site.baseurl }}/_pdfs/CV_mobin_4_27_24.pdf" width="1000" height="1000" type="application/pdf"></object>
+<iframe src="https://docs.google.com/gview?url=http://example.com/mypdf.pdf&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe>
