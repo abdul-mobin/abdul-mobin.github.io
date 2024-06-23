@@ -1,5 +1,1 @@
-
----
-pdf_local: "/_pdfs/CV_mobin_4_27_24.pdf"
----
-{% pdf {{ page.pdf_local }} %}
+{% pdf "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf](https://drive.google.com/file/d/1sHAupSAv92GFTKhAjOe5HLWIue5DUzQt/view?usp=sharing" %}
