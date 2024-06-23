@@ -6,6 +6,6 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
 end
 
-group :jekyll_plugins do
-  gem "jekyll-pdf-embed"
+source "https://rubygems.pkg.github.com/mihajlonesic" do
+  gem "jekyll-pdf-embed", "1.1.1"
 end
