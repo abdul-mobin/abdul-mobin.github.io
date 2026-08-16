@@ -1,6 +1,7 @@
 title: "Mohammad Abdul Mobin"
-author: "Mobin"
-description: "University of Arkansas"
+author: "Mohammad Abdul Mobin"
+# TODO: replace with your real field/institution, e.g. "PhD student in Computer Science at the University of Arkansas"
+description: "Researcher — TODO: your field and institution"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -16,12 +17,18 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: "CV", url: "https://drive.google.com/file/d/1sHAupSAv92GFTKhAjOe5HLWIue5DUzQt/view?usp=sharing" }
+  - {file: "research.md"}
+  - {file: "publications.md"}
+  - {file: "teaching.md"}
   - {file: "blog.md"}
+  - {file: "CV.md"}
+  - {file: "contact.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
+  - {title: Email, icon: envelope, url: "mailto:aabdulmobinn@gmail.com"}
+  - {title: "Google Scholar", icon: graduation-cap, url: "#"} # TODO: add your Google Scholar profile URL
+  - {title: Github, icon: github, url: "https://github.com/abdul-mobin"}
+  - {title: ORCID, icon: orcid, url: "#"} # TODO: add your ORCID iD URL
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
@@ -30,4 +37,3 @@ comments:
 
 plugins:
  - jekyll-feed
- - jekyll-pdf-embed
